@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #gridDiv {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* grid-template-rows: 1fr 1fr 1fr; */
+        margin: 10px;
+      }
+      #image {
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Cart Products</h1>
+    <button id="cheout" onclick="checkOut()">Go to Checkout page</button>
+    <br />
+    <input type="text" id="promoInput" placeholder="Enter a promo code" />
+    <button id="promoButton" onclick="applyPromo()">Promo Button</button>
+    <h3 id="h33"></h3>
+    <div id="main"></div>
+  </body>
+</html>
+<script src="cart.js"></script>
